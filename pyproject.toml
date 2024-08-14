@@ -1,0 +1,15 @@
+[project]
+name = "nx_huggingface_flux"
+description = "Nodes:Hugging Face Flux"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["gradio_client"]
+
+[project.urls]
+Repository = "https://github.com/Franck-Demongin/NX_HuggingFace_Flux"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "NX_HuggingFace_Flux"
+Icon = ""
